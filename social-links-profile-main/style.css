@@ -1,0 +1,25 @@
+:root{
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+body {
+    background-color: var(--grey-900);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+}
+.profile {
+    justify-content: center;
+    background-color: var(--grey);
+    width: 40%;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 5px;
+}
+.profile .img-pfp{
+    border-radius: 50%;
+}
